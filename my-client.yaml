@@ -5,3 +5,10 @@ management:
         include: refresh
 
 message-name: ${MESSAGE:second-check}
+
+spring:
+  rabbitmq:
+    host: http://localhost
+    port: 5672
+    username: admin
+    password: admin
