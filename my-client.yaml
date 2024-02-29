@@ -4,4 +4,4 @@ management:
       exposure:
         include: refresh
 
-message-name: second-check
+message-name: ${MESSAGE-NAME:second-check}
