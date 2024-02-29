@@ -7,4 +7,4 @@ management:
       exposure:
         include: refresh
 
-message-name: first-check
+message-name: second-check
