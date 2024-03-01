@@ -16,9 +16,9 @@ message-name: check
 #     username: admin
 #     password: admin
 
-zeebe:
-  client:
-    broker:
-      gateway-address: localhost:26500
-    security:
-      plaintext: true
+# zeebe:
+#   client:
+#     broker:
+#       gateway-address: localhost:26500
+#     security:
+#       plaintext: true
