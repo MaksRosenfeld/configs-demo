@@ -4,7 +4,10 @@ management:
       exposure:
         include: busrefresh, refresh
 
-message-name: check-
+server:
+  port: 8092
+
+message-name: check
 
 spring:
   rabbitmq:
@@ -12,3 +15,10 @@ spring:
     port: 5672
     username: admin
     password: admin
+
+zeebe:
+  client:
+    broker:
+      gateway-address: localhost:26500
+    security:
+      plaintext: true
