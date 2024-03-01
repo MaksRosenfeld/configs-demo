@@ -9,12 +9,12 @@ server:
 
 message-name: check
 
-spring:
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: admin
-    password: admin
+# spring:
+#   rabbitmq:
+#     host: localhost
+#     port: 5672
+#     username: admin
+#     password: admin
 
 zeebe:
   client:
