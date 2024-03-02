@@ -10,6 +10,8 @@ server:
 message-name: check-test
 
 spring:
+  bus:
+    destination: my-test-queue-for-refresh
   rabbitmq:
     host: localhost
     port: 5672
